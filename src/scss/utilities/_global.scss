@@ -1,0 +1,160 @@
+* {
+	-webkit-tap-highlight-color: transparent;
+	word-wrap: break-word;
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-overflow-scrolling: touch;
+
+    min-height: 100%;
+	margin-top: 0 !important;
+
+	background: $background-color;
+
+    font-size: 100%;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	// Disable iOS/WinMobile font size changes
+	@include breakpoint(max-width $breakpoint-xs-width-max) {
+		-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+	}
+}
+
+
+body {
+	color: $text-color;
+
+	font-family: $font-family-base;
+	font-size: $font-size-base;
+	font-weight: $font-weight-regular;
+	line-height: $line-height-base;
+}
+
+img,
+video,
+iframe {
+	max-width: 100%;
+}
+
+.content {
+	@include breakpoint($md) {
+		position: relative;
+		float: left;
+		width: 100%;
+		z-index: $z-mid;
+		margin-bottom: 555px; // footer height
+		background: $background-color;
+	}
+}
+
+.container {
+	@include container;
+	width: $max-width;
+	padding: 0 $gutter/2;
+
+	@include breakpoint($lg) {
+		padding: 0 $gutter;
+	}
+}
+
+.container--full {
+	padding: 0;
+	width: 100%;
+
+	img,
+	video {
+		display: block;
+		width: 100%;
+	}
+}
+
+.container--full-split {
+	@extend .container--full;
+	display: flex;
+	flex-direction: column;
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+		display: block;
+	}
+	@include breakpoint($md) {
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+	}
+}
+
+.container--half,
+.container__half {
+	@include breakpoint($md) {
+		width: 50%;
+		margin-bottom: 0;
+
+		img,
+		video {
+			height: 100%;
+		}
+	}
+}
+
+.container--full-split,
+.container--half,
+.container--full {
+	iframe {
+		width: 100%;
+		height: 100vw;
+		@include breakpoint($md) {
+			height: 100%;
+		}
+	}
+}
+
+.brickMap {
+	order: 1;
+	@include breakpoint($md) {
+		order: 2;
+	}
+}
+.brickMonument {
+	order: 2;
+	@include breakpoint($md) {
+		order: 1;
+	}
+}
+.bricktropolisAnimation {
+	background-color: #fcd500;
+	display: flex;
+	justify-content: center;
+	img {
+		display: block;
+		max-width: 500px;
+		max-height: 500px;
+	}/*
+	.video-container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		background-color: transparent;
+	}*/
+	video {
+		width: auto !important;
+		height: auto;
+		max-height: 500px;
+		display: block;
+	}
+}
+
+.visually-hidden {
+	@include visually-hidden;
+}
+
+.in-view-container {
+	opacity: 0;
+	transition: opacity 300ms ease-out 300ms;
+}
+
+.in-view-active {
+	opacity: 1;
+}

@@ -1,0 +1,18 @@
+@import "scss/setup/setup.scss";
+
+.services {
+  .services__wedo {
+    font-size: $vr*6;
+    font-weight: $font-weight-medium;
+    line-height: 1;
+    @include breakpoint($sm) {
+      font-size: $vr*12;
+    }
+    @include breakpoint($md) {
+      font-size: $vr*12;
+    }
+    @include breakpoint($lg) {
+      font-size: $vr*18;
+    }
+  }
+}

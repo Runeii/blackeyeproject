@@ -1,0 +1,50 @@
+.header {
+    position: fixed;
+    top: 0;
+    z-index: $z-high;
+    display: block;
+    width: 100%;
+    background: fade-out($background-color, 0.1);
+    padding: $vr*2 0;
+
+    + .content {
+        padding-top: $vr*15;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    @include breakpoint($md) {
+        position: relative;
+        padding: $vr*4 0;
+        background: none;
+
+        + .content {
+            padding-top: 0;
+        }
+    }
+
+    a {
+        &:hover {
+            color: $brand-white;
+        }
+    }
+}
+
+.header-logo {
+    display: inline-block;
+    font-size: inherit;
+    z-index: $z-super;
+
+    a,
+    img {
+        display: block;
+        max-width: 144px;
+        max-height: 55px;
+    }
+}
+
+.header-logo__text {
+    @include visually-hidden;
+}

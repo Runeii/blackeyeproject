@@ -1,0 +1,85 @@
+@import "scss/setup/setup.scss";
+
+.footer {
+    position: relative;
+    z-index: $z-mid;
+    margin-top: gutter(1.5);
+    padding: 30px 0;
+    background: $background-color;
+    color: $brand-color-c;
+    font-size: 18px;
+
+    @include breakpoint($md){
+        position: fixed;
+        bottom: 0;
+        z-index: $z-base;
+        padding: 40px 0 150px;
+        width: 100%;
+    }
+
+    > .container {
+        @include breakpoint($md){
+            display: flex;
+
+            align-items: stretch;
+            justify-content: space-between;
+        }
+    }
+
+    p {
+        margin: $vr 0;
+    }
+
+    [class^="icon--"],
+    [class*=" icon--"] {
+        &::before {
+            margin: 0;
+            vertical-align: -15%;
+            font-size: 150%;
+        }
+    }
+
+    .icon--location {
+        margin-left: -5px;
+    }
+
+    a:hover {
+        color: $brand-color-b;
+    }
+}
+
+.footer__title {
+    position: relative;
+    margin-bottom: $vr*3;
+    padding-top: $vr*3;
+    font-size: inherit;
+    font-family: inherit;
+    color: $brand-color-b;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        content: '';
+    }
+}
+
+.footer__section {
+    margin-bottom: $vr*10;
+}
+
+.footer__copy {
+    font-size: 12px;
+}
+
+.footer__social {
+    [class^="icon--"],
+    [class*=" icon--"] {
+        &::before {
+            margin-right: 15px;
+        }
+    }
+}

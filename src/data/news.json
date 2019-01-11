@@ -1,0 +1,22 @@
+{
+    "news": [
+      {
+          "title": "News title to go here",
+          "date": "21 Nov 2016",
+          "promo_img": "/images/news/news-promo-1.jpg",
+          "main_img": "/images/news/news-1.jpg"
+      },
+      {
+          "title": "News article 2",
+          "date": "21 Nov 2016",
+          "promo_img": "/images/news/news-promo-1.jpg",
+          "main_img": "/images/news/news-1.jpg"
+      },
+      {
+          "title": "News article with question?",
+          "date": "21 Nov 2016",
+          "promo_img": "/images/news/news-promo-1.jpg",
+          "main_img": "/images/news/news-1.jpg"
+      }
+    ]
+}

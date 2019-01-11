@@ -1,0 +1,63 @@
+$icons: (
+	twitter: "\f081",
+	linkedin: "\f08c",
+	instagram: "\f16d",
+	location: "\e900"
+);
+
+// For adding font icons to elements using CSS pseudo-elements
+// http://jaydenseric.com/blog/fun-with-sass-and-font-icons
+@mixin icon($position: before, $icon: false, $styles: true) {
+    @if $position == both {
+        $position: 'before, &:after';
+    }
+    // Either a :before or :after pseudo-element, or both, defaulting to :before
+    &:#{$position} {
+        @if $icon {
+            // A particular icon has been specified
+            content: "#{map-get($icons, $icon)}";
+        }
+        @if $styles {
+            // Supportive icon styles required
+			margin-right: gutter();
+            vertical-align: -10%;
+			text-transform: none;
+			font-weight: normal;
+			font-style: normal;
+			font-variant: normal;
+			font-size: 120%;
+			font-family: '#{$icon-font}';
+			line-height: 1;
+
+			speak: none;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+        }
+        // Include any extra rules supplied for the pseudo-element
+        @content;
+    }
+}
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: '#{$icon-font}';
+	src:url('#{$directory-fonts}/#{$icon-font}/#{$icon-font}.eot?-gfwsty');
+	src:url('#{$directory-fonts}/#{$icon-font}/#{$icon-font}.eot?#iefix-gfwsty') format('embedded-opentype'),
+	url('#{$directory-fonts}/#{$icon-font}/#{$icon-font}.ttf?-gfwsty') format('truetype'),
+	url('#{$directory-fonts}/#{$icon-font}/#{$icon-font}.woff?-gfwsty') format('woff'),
+	url('#{$directory-fonts}/#{$icon-font}/#{$icon-font}.svg?-gfwsty##{$icon-font}') format('svg');
+}
+
+// Set the required styles on all icons
+[class^="icon--"],
+[class*=" icon--"] {
+    @include icon;
+}
+
+// Setup a class name for each icon
+@each $name, $char in $icons {
+    .icon--#{$name} {
+		@include icon(before, $name, false);
+    }
+}

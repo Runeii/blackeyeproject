@@ -1,0 +1,37 @@
+.grid {
+    display: flex;   
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.grid__item {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    max-height: 100px;
+    @include breakpoint($sm) {
+        flex-basis: 25%;
+        padding: 20px 10px;
+    }
+    @include breakpoint($lg) {
+        flex-basis: 12.5%;
+        padding: 10px 0;
+
+        &:nth-last-child(n + 9) {
+            margin-bottom: 20px;
+        }
+    }
+    img {
+        max-height: 80px;
+        max-width: 60%;
+        @include breakpoint($sm) {
+            max-height: 60px;
+        }
+        @include breakpoint($lg) {
+            max-height: 80px;
+        }
+    }
+}

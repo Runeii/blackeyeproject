@@ -1,0 +1,75 @@
+$susy: (
+  columns: 10,
+  gutters: 1/8,
+  math: fluid,
+  output: float,
+  gutter-position: after
+  // debug: (image: show, color: rgba(6, 215, 121, 0.3), output: overlay, toggle: top right)
+);
+
+// break points
+$breakpoint-sm-width: 480px;
+$breakpoint-md-width: 860px;
+$breakpoint-lg-width: 1200px;
+$breakpoint-xl-width: 1400px;
+$breakpoint-xxl-width: 1920px;
+
+//aliases
+$sm: $breakpoint-sm-width;
+$md: $breakpoint-md-width;
+$lg: $breakpoint-lg-width;
+$xl: $breakpoint-xl-width;
+$xxl: $breakpoint-xxl-width;
+
+$breakpoint-xs-width-max: $sm - 1;
+$breakpoint-sm-width-max: $md - 1;
+$breakpoint-md-width-max: $lg - 1;
+$breakpoint-lg-width-max: $xl - 1;
+$breakpoint-xl-width-max: $xxl - 1;
+
+$retina-query: (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi);
+
+$max-width: 1590px;
+$gutter: 40px;
+
+// Colors
+$brand-color-a: #90ffa5;
+$brand-color-b: rgb(173,173,173);
+$brand-color-c: rgb(101,101,101);
+$brand-color-d: #303030;
+
+$brand-white: #FFF;
+$brand-black: #0f1214;
+
+$text-color: $brand-white !default;
+$background-color: $brand-black;
+
+// Dimensions
+$vertical-rhythm: 5px;
+$vr: $vertical-rhythm;
+
+// Typography
+$font-family-sans-serif: 'Neology W01', Helvetica, Arial, sans-serif;
+$font-family-serif: 'Georgia Pro', Georgia, Times, serif;
+$font-family-mono: 'Anonymous Pro', 'Droid Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, 'Lucida Console', Courier, monospace;
+$font-family-base: $font-family-sans-serif;
+$icon-font: 'icomoon';
+$directory-fonts: 'https://bep-vue-website-new.s3.amazonaws.com/fonts';
+
+// Font Sizing
+$font-size-base: $vr*4;
+$font-size-large: $vr*5;
+$font-size-small: $vr*3;
+$line-height-base: 1.4;
+
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+$font-weight-light: 100;
+
+// z-index
+$z-base: 1;
+$z-small: 5;
+$z-mid: 10;
+$z-high: 100;
+$z-super: 1000;

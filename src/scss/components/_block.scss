@@ -1,0 +1,84 @@
+.block {
+    position: relative;
+    z-index: $z-mid;
+
+    img:only-child {
+        width: 100%;
+    }
+}
+
+.block--size-a {
+    @include breakpoint($md) {
+         @include span(4);
+
+         + .block--size-b {
+            @include last();
+        }
+        + .block--size-d {
+            @include last();
+        }
+    }
+}
+
+.block--size-b {
+    @include breakpoint($md) {
+         @include span(6);
+
+        + .block--size-a {
+            @include last();
+        }
+    }
+}
+
+.block--size-c {
+    @include breakpoint($md) {
+         @include span(5);
+        @include push(4);
+    }
+}
+
+.block--size-d {
+    @include breakpoint($md) {
+         @include span(6);
+
+        + .block--size-a {
+            @include last();
+        }
+    }
+}
+
+.block--size-e {
+    margin-bottom: 20px;
+    
+    @include breakpoint($md) {
+         @include span(2);
+
+        &:nth-child(5n) {
+            @include last();
+        }
+    }
+}
+
+.block--size-f {
+    
+    @include breakpoint($md) {
+        @include span(3);
+    }
+}
+.block--push-1 {
+    @include breakpoint($md) {
+        @include push(1);
+    }
+}
+
+.block--last {
+    @include breakpoint($md) {
+        @include last();
+    }
+}
+.block--clear {
+    float: left;
+    width: 100%;
+    clear: both;
+    margin-bottom: 50px;
+}

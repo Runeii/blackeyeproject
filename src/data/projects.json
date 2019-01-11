@@ -1,0 +1,617 @@
+{
+    "projects": [   
+        {
+            "showHome": true,
+            "active": true,
+            "displayOrder": 0,
+            "url": "bricktropolis",
+            "client": "Sheffield BID",
+            "type": "Branding",
+            "promo_title": "Building excitement",
+            "promo_image1": "/images/projects/bricktropolis/header_1440px.png",
+            "promo_image2": "/images/projects/bricktropolis/header_1440px.png",
+            "title": "Brand Creation and Marketing",
+            "layout": "2018",
+            "img_dir": "/images/projects/bricktropolis/",
+            "img_main": {
+                "src": "header",
+                "extension": "png",
+                "sizes": [480, 960, 1440, 1920],
+                "type": "img"
+            },
+            "slide": {
+                "src": "header",
+                "extension": "png",
+                "sizes": [480, 960, 1440, 1920],
+                "type": "img"
+            },
+            "media": [
+                {
+                    "src": "1-bricks",
+                    "extension": "mp4",
+                    "sizes": [500],
+                    "type": "video",
+                    "matchColour": true,
+                    "class": "bricktropolisAnimation",
+                    "fallback": {
+                        "name": "1-bricks-fallback",
+                        "extension": "png"
+                    }
+                },
+              {
+                "src": "2-pack",
+                "extension": "png",
+                "sizes": [480, 960, 1440, 1920],
+                "type": "img"
+              },
+              {
+                "src": "3-booklet",
+                "extension": "png",
+                "sizes": [240, 480, 720, 960],
+                "half": true,
+                "type": "img"
+              },
+              {
+                "src": "4-inside",
+                "extension": "jpg",
+                "sizes": [240, 480, 720, 960, 1440, 1920],
+                "half": true,
+                "type": "img"
+              },
+              {
+                "src": "5-monument",
+                "extension": "mp4",
+                "sizes": [960],
+                "half": true,
+                "class": "brickMonument",
+                "type": "video",
+                "fallback": {
+                    "name": "5-monument-fallback",
+                    "extension": "png"
+                }
+              },
+              {
+                "src": "6-map",
+                "extension": "mp4",
+                "sizes": [960],
+                "half": true,
+                "type": "video",
+                "class": "brickMap",
+                "fallback": {
+                    "name": "6-map-fallback",
+                    "extension": "png"
+                }
+              },
+              {
+                "src": "7-stairs",
+                "extension": "png",
+                "sizes": [160, 320, 480, 640],
+                "third": true,
+                "type": "img"
+              },
+              {
+                "src": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FBBCYorkshire%2Fvideos%2F2047276951951241%2F&show_text=0&width=640",
+                "third": true,
+                "type": "embed"
+              },
+              {
+                "src": "9-window",
+                "extension": "png",
+                "sizes": [160, 320, 480, 640],
+                "third": true,
+                "type": "img"
+              },
+              {
+                "src": "stats",
+                "extension": "png",
+                "sizes": [320, 640, 1280, 2560, 3840, 5120],
+                "type": "img"
+              },
+              {
+                "src": "11-lamp",
+                "extension": "png",
+                "sizes": [240, 480, 720, 960],
+                "half": true,
+                "type": "img"
+              },
+              {
+                "src": "12-brick",
+                "extension": "png",
+                "sizes": [240, 480, 720, 960],
+                "half": true,
+                "type": "img"
+              },
+              {
+                "src": "13-store",
+                "extension": "png",
+                "sizes": [320, 640],
+                "third": true,
+                "type": "img"
+              },
+              {
+                "src": "14-map",
+                "extension": "png",
+                "sizes": [320, 640],
+                "third": true,
+                "type": "img"
+              },
+              {
+                "src": "15-towers",
+                "extension": "png",
+                "sizes": [320, 640],
+                "third": true,
+                "type": "img"
+              }
+            ],
+            "brief": [
+                "Sheffield BID organised a two week LEGO-brick themed event across the city centre. Our job was to let the public know it was happening, in order to increase footfall and interest in Sheffield City Centre businesses during the typically quiet summer trading period."
+            ],
+            "solution": [
+                "The first job was to create a brand for the event as we had a name - Sheffield Bricktropolis - but nothing else. The second was to market the individual elements of the event. Outdoor posters & vinyls, leaflet drops, and maps were created and distributed in order to promote a trail of 21 of the world's most inspirational buildings recreated in LEGO, as well as an Interactive Building Zone, Mosaic Builds and a variety of LEGO-related fringe events, deals and competitions.",
+                "When the event opened it was all about the Interactive Companion Trail Guide App. Download it and GPS-based tracking features guided you to each of the LEGO models on the trail, provided information on both the brick and real landmarks, and logged your Trail progress. All of which could be updated remotely throughout the fortnight.",
+                "At launch, the App instantly became the No.1 trending Event App on Google's Play Store and remained in the top 3 for the duration of the event."
+            ],
+            "done_better": [
+                "Brand ID",
+                "Mobile App",
+                "Ambient",
+                "Print",
+                "Vinyls & Signage",
+                "Social Media"
+            ],
+            "skillsets": [
+                "Design",
+                "Code",
+                "Concepts",
+                "Art direction",
+                "Copywriting"
+            ]
+        },
+        {
+            "showHome": false,
+            "active": true,
+            "displayOrder": 2,
+            "url": "poco-nido",
+            "client": "Poco Nido",
+            "type": "Branding",
+            "promo_title": "First Step Footwear",
+            "promo_image1": "/images/projects/poco-nido/1.png",
+            "promo_image2": "/images/projects/poco-nido/1.png",
+            "title": "Brand Creation and Marketing",
+            "layout": "a",
+            "img_dir": "/images/projects/poco-nido/",
+            "img_main": "1.png",
+            "slide": {
+                "src": "1",
+                "extension": "png",
+                "sizes": [480, 960, 1440, 1920],
+                "type": "img"
+            },
+            "media": {
+                "img_half_1": "pn-logo.png",
+                "img_half_2": "pn.png",
+                "img_full_4": "Poco_Print.png",
+                "img_full_6": "pn_booklets.png",
+                "img_full_7": "pn-bonnet-photo.png",
+                "img_full_8": "8.png"
+            },
+            "brief": [
+                "Create a new toddlers' footwear and clothing brand then take it to market."
+            ],
+            "solution": [
+            "Black Eye were approached then tasked with creating a premium toddlers' footwear and clothing brand by a local businesswoman and new mum.",
+            "After researching the sector it was apparent that the market was already awash with back bedroom start ups all vying for the same fashionista mum pound. And the competition is actually very good - items are well made from baby-soft materials and packaging is all environmentally friendly, etc, etc. A USP and competitive edge based on quality was immediately off the table.",
+            "We continued our research looking for another angle and it came after our Creative Director's children made him take an impromptu visit McDonalds. Whilst looking at a table of half eaten burgers and untouched fries he understood the kids only wanted the toys, not the food. Here was our differentiator - design the brand and the clothing so the kids want it as much as the adults, if not more.",
+            "From this point on, everything was designed to appeal to children. A simple illustration style was created by artist Geo Law which saw spacemen and princesses on t-shirts and cute woodland animals on wellies. Throw in some additional client-inspired touches like packaging that turns into Ludwig the brand owl and Poco Nido was born (even the name was developed with monosyllabic-style baby speech in mind).",
+            "The results have seen Poco Nido win a clutch of awards, acquire listings in boutiques across the globe, and operate their increasingly successful consumer and retail e-commerce sites from offices in the UK and Singapore. Who'd have thought a free Disney toy could have started all that?"
+            ],
+            "done_better": [
+                "Brand ID",
+                "Brand website",
+                "Ecommerce website",
+                "Packaging",
+                "Print",
+                "In-store"
+            ],
+            "skillsets": [
+                "Strategy",
+                "Design",
+                "Code",
+                "Concepts",
+                "Art direction",
+                "Copywriting"
+            ]
+        },
+        {
+          "showHome": false,
+          "active": true,
+          "displayOrder": 1,
+          "url": "trib3",
+          "client": "TRIB3",
+          "type": "Digital",
+          "promo_title": "Pump Up the Brand",
+          "promo_image1": "/images/projects/trib3/1-trib3-hero.png",
+          "promo_image2": "/images/projects/trib3/1-trib3-hero.png",
+          "title": "Brand Creation and Marketing",
+          "layout": "2018",
+          "img_dir": "/images/projects/trib3/",
+          "img_main": "1-trib3-hero.png",
+          "slide": {
+              "src": "1-trib3-hero",
+              "extension": "png",
+              "sizes": [480, 960, 1440, 1920],
+              "type": "img"
+          },
+          "media": [
+            {
+                "src": "2-trib3-we-hurt-as-one",
+                "extension": "png",
+                "sizes": [480, 960, 1440, 1920],
+                "type": "img"
+            },
+            {
+                "src": "3-trib3-girl",
+                "extension": "png",
+                "sizes": [240, 480, 720, 960],
+                "half": true,
+                "type": "img"
+            },
+            {
+                "src": "4-trib3-femaletrainer",
+                "extension": "png",
+                "sizes": [240, 480, 720, 960],
+                "half": true,
+                "type": "img"
+            },
+            {
+                "src": "5-trib3-session-titles",
+                "extension": "png",
+                "sizes": [480, 960, 1440, 1920],
+                "type": "img"
+            },
+            {
+                "src": "6-trib3-running",
+                "extension": "png",
+                "sizes": [480, 960, 1440, 1920],
+                "type": "img"
+            },
+            {
+                "src": "Trib3%20Web",
+                "extension": "mp4",
+                "sizes": [1920],
+                "type": "video",
+                "fallback": "Trib3%20Web_fallback.png"
+            },
+            {
+                "src": "8-trib3-trainer",
+                "extension": "png",
+                "sizes": [240, 480, 720, 960],
+                "half": true,
+                "type": "img"
+            },
+            {
+                "src": "9-trib3-myzone",
+                "extension": "png",
+                "sizes": [240, 480, 720, 960],
+                "half": true,
+                "type": "img"
+            },
+            {
+                "src": "TRIB3Macbook",
+                "extension": "mp4",
+                "sizes": [1920],
+                "type": "video",
+                "fallback": "TRIB3Macbook_fallback.png"
+            }
+          ],
+          "brief": [
+              "Trib3 approached us with their name and vision. They had no brand and no marketing. That was our challenge."
+          ],
+          "solution": [
+            "Trib3 is a gym like no other. It’s an experience with almost a club-like vibe. A place to be, not just to be seen. The workouts are tough and the community is strong. It’s serious training but it’s seriously different too - in everything from the atmosphere, to the payment structure.",
+            "Armed with an understanding of Trib3’s ambitions, we created a style, a tone and ultimately a brand. The feel is dark and moody, with energetic flashes of colour. The focus is still very much on fitness, but with a strong sense of community too.",
+            "We then applied this brand identity across everything from gym signage to all Trib3 marketing materials, including social media and website creation. Since that first gym they haven’t looked back, opening more gyms and moving into Europe within 24 months."
+          ],
+          "done_better": [
+              "Brand ID",
+              "Brand website",
+              "Social Media",
+              "Print",
+              "In-store"
+          ],
+          "skillsets": [
+              "Design",
+              "Code",
+              "Concepts",
+              "Art direction",
+              "Copywriting"
+          ]
+        },
+        {
+          "showHome": true,
+          "active": true,
+          "displayOrder": 20,
+          "url": "cycliq",
+          "client": "Cycliq",
+          "type": "Website",
+          "promo_title": "Eyes on the road",
+          "promo_image1": "/images/projects/cycliq/1.jpg",
+          "promo_image2": "/images/projects/cycliq/1.jpg",
+          "title": "Brand Creation and Marketing",
+          "layout": "b",
+          "img_dir": "/images/projects/cycliq/",
+          "img_main": "1.jpg",
+          "slide": {
+              "src": "header",
+              "extension": "jpg",
+              "sizes": [512, 1024, 2048, 3072, 4096, 5120],
+              "type": "img"
+          },
+          "media": {
+            "img_full_1": "2.jpg",
+            "img_full_2": "3.jpg",
+            "img_full_3": "4.jpg",
+            "img_full_4": "5.jpg",
+            "img_full_5": "6.jpg",
+            "img_full_6": "7.jpg",
+            "img_full_7": "8.jpg",
+            "img_full_8": "Cycliq-WebsiteLong.jpg",
+            "img_full_9": "9.jpg"
+          },
+          "brief": [
+              "Create a new brand and take it to market."
+          ],
+          "solution": [
+              "Four years ago, a man walked through our door with an idea but no brand or marketing.",
+              "We’ve worked with this Australian company right from the start. Helping them with everything from name generation to packaging. We created their entire brand identity, identifying their brand values and hierarchy.",
+              "When they were ready to go online, we built brand and ecommerce websites for them too. As well as all the other marketing comms necessary to build their brand. We even produced a Kickstarter campaign to enable them to fund their next stage of product development - and the target was smashed in just 10 days.",
+              "The result? A company that now operates in the global cycling market and is listed on the Australian stock market."
+          ],
+          "done_better": [
+            "Name",
+            "Brand ID",
+            "Brand guidelines",
+            "Brand website",
+            "Ecommerce website",
+            "Packaging",
+            "Print"
+          ],
+          "skillsets": [
+            "Strategy",
+            "Design",
+            "Code",
+            "Concepts",
+            "Art direction",
+            "Copywriting"
+            ]
+        },
+      {
+        "showHome": true,
+        "active": true,
+        "displayOrder": 40,
+        "url": "go-outdoors",
+        "client": "Go Outdoors",
+        "type": "Design",
+        "promo_title": "Made for more",
+        "promo_image1": "/images/projects/go/GOO1.jpg",
+        "promo_image2": "/images/projects/go/GOO1.jpg",
+        "title": "North Ridge 2017 Capsule Range",
+        "img_dir": "/images/projects/go/",
+        "layout": "b",
+        "img_main": "GOO1.jpg",
+        "slide": {
+            "src": "header",
+            "extension": "jpg",
+            "sizes": [512, 1024, 2048, 3072, 4096],
+            "type": "img"
+        },
+        "media": {
+            "img_full_1": "GOO2.jpg",
+            "img_full_2": "GOO3.jpg",
+            "img_full_3": "GOO4.jpg",
+            "img_full_4": "GOO5.jpg",
+            "img_full_5": "GOO6.jpg",
+            "img_full_6": "GOO7.jpg"
+        },
+        "brief": [
+            "Elevate the perception of an own-brand range to reflect its higher price point and quality."
+        ],
+        "solution": [
+            "Go Outdoors own brands are often discounted, sometimes heavily. Add in their no-frills door drop advertising and you can see why customers wouldn’t generally consider its own-label ranges as comparable to the big outdoor leisure brands. However, the North Ridge Capsule Range was a new take for Go Outdoors. The new range actively targets a younger and more fashion-conscious audience, therefore every piece is made with the latest technologically-advanced materials.",
+            "The quality is reflected in the price. And this quality was reflected in the brochure we produced. In everything from the design and copy, to the stock and the photography. In total we undertook five different photoshoots, appealing to distinctly different audiences within our target group. Locations ranged from urban parks to industrial cross-fit gyms to isolated spots in the Peak District.",
+            "The upshot was an honest yet aspirational style, creating a desirable and identifiable look that matched the pricing and quality of this can-do range."
+        ],
+        "done_better": [
+            "Look Book design",
+            "In-store",
+            "Web imagery",
+            "Web banners"
+        ],
+        "skillsets": [
+            "Art direction",
+            "Copywriting",
+            "Design",
+            "Casting"
+        ]
+      },
+      {
+        "showHome": false,
+        "active": true,
+        "url": "gracie-2017",
+        "displayOrder": 50,
+        "client": "John Wilson",
+        "type": "Creative",
+        "promo_title": "Routine perfected",
+        "promo_image1": "/images/projects/gracie17/GG1.jpg",
+        "promo_image2": "/images/projects/gracie17/GG1.jpg",
+        "title": "Gracie Gold Brand Campaign 2017",
+        "img_dir": "/images/projects/gracie17/",
+        "layout": "a",
+        "img_main": "GG1.jpg",
+        "media": {
+            "img_full_1": "GG2.jpg",
+            "img_half_1": "GG3.jpg",
+            "img_half_2": "GG4.jpg"
+        },
+        "brief": [
+            "Drive North American sales with brand ambassador Gracie Gold (US National Champ and Olympic medallist)."
+        ],
+        "solution": [
+            "Well-known and admired in figure skating circles, Gracie Gold is brand ambassador for John Wilson. This campaign was to promote their blades by highlighting their relationship with Gracie in a Winter Olympic year.",
+            "Our eye-catching execution was bold and contemporary. Although it may be parents and sponsors who foot the final bill, the majority of our target audience are young females. We made sure these are the blades they want whilst allowing the relationship with a medal-winning athlete to cement the quality message. The copy played on and developed the existing ‘Perfection to your Routine’ line.",
+            "The BEP team delivered executions across print, digital and in-store. We even flew Gracie into Sheffield for a photoshoot with top snapper David Short. The results of Do Better was a 200% year-on-year increase in sales of the Wilson Revolution and an upsurge in Gracie's blades."
+        ],
+        "done_better": [
+            "Brand campaign",
+            "Press",
+            "POS for US network",
+            "Brand website",
+            "Web banners"
+        ],
+        "skillsets": [
+            "Art direction",
+            "Brand direction",
+            "Advertising"
+        ]
+      },
+      {
+        "showHome": false,
+        "active": true,
+        "displayOrder": 30,
+        "url": "mk-blades",
+        "client": "MK Blades",
+        "type": "Advertising",
+        "promo_title": "Must have blades",
+        "promo_image1": "/images/projects/mk/1.jpg",
+        "promo_image2": "/images/projects/mk/1.jpg",
+        "title": "Brand Campaign 2016-17",
+        "layout": "a",
+        "img_dir": "/images/projects/mk/",
+        "img_main": "1.jpg",
+        "media": {
+            "img_full_1": "2.jpg",
+            "img_half_1": "3-1.jpg",
+            "img_half_2": "3-2.jpg",
+            "img_full_4": "4.jpg",
+            "img_half_3": "behind-scenes.jpg",
+            "video": "MKBehindScenes",
+            "img_full_6": "5.jpg"
+        },
+        "brief": [
+            "Raise the brand’s appeal with younger, leisure skaters."
+        ],
+        "solution": [
+            "MK Blades is the world's second biggest figure skate blade brand, behind sister company John Wilson. Our challenge was to differentiate the two brands.",
+            "MK is aimed at a younger audience, many of whom skate recreationally rather than seeking a professional career. We created a campaign that cut through the category and embodied the fun of skating. It's bold and colourful, featuring models ranging from 10 to 35 years - the antidote to serious professionalism. The outcome is a strong, memorable brand campaign that captures the essence of skating for enjoyment and appeals to the target audience."
+        ],
+        "done_better": [
+            "Brand campaign",
+            "Press",
+            "POS for US network",
+            "Brand website",
+            "Web banners"
+        ],
+        "skillsets": [
+            "Art direction",
+            "Code",
+            "Design",
+            "Copywriting"
+        ]
+      },
+      {
+        "showHome": false,
+        "active": true,
+        "displayOrder": 10,
+        "url": "lavs",
+        "client": "Sheffield BID",
+        "type": "Design",
+        "promo_title": "Love LAVS",
+        "promo_image1": "/images/projects/lavs/lavs-intro-1.png",
+        "promo_image2": "/images/projects/lavs/lavs-intro-1.png",
+        "title": "Sub-Brand Creation and Marketing",
+        "layout": "a",
+        "img_dir": "/images/projects/lavs/",
+        "img_main": "lavs-intro-1.png",
+        "media": {
+            "img_full_1": "lavs-2.png",
+            "img_full_2": "lavs-pack.png",
+            "img_half_1": "50-1.png",
+            "img_half_2": "50-2.png",
+            "canvas": "lavs",
+            "img_half_3": "lavs-booklet.png",
+            "img_half_4": "lavs-booklet-open.png",
+            "img_full_7": "lavs-pack.png",
+            "img_full_8": "lavs-poster.png"
+        },
+        "brief": [
+            "Inform the public that Sheffield City Centre retailers - through the creation of a Business Improvement District (Sheffield BID) - are combatting the closure of public toilets by allowing visitors free use of their own facilities."
+        ],
+        "solution": [
+          "People are so familiar with the universally accepted public toilet icons there was a genuine danger any new signage or declaration of Sheffield Bid's collaborative solution would go unnoticed. For this project to work we had to approach it in a very different manner.",
+          "Starting from scratch we worked on potential new names, eventually settling on the purposely ridiculous (but equally memorable) Lavatory & Ablution Venue Scheme...or LAVS for short.",
+          "To continue our move away from 'the norm' we decided to use the Sheffield Bid brand colours to create a bold and pronounced style for LAVS. Any member of the public walking down the street would do well to walk past signage and miss both the unusual name and strong, colourful art direction.",
+          "Feedback from the public has been favourable. Not only do they value the replacement facilities but they also appreciate the tone of voice and tongue-in-cheek way they've been informed. Another Do Better result for Black Eye then."
+        ],
+        "done_better": [
+            "Name generation",
+            "Sub-brand creation",
+            "Ambient media",
+            "Wayfinding"
+        ],
+        "skillsets": [
+            "Concepts",
+            "Art Direction",
+            "Copywriting",
+            "Design"
+        ]
+      },
+      {
+        "showHome": true,
+        "active": true,
+        "displayOrder": 1,
+        "url": "ohm",
+        "client": "Ohm Bar & Kitchen",
+        "type": "Design",
+        "promo_title": "Dancing and Dining",
+        "promo_image1": "/images/projects/ohm/ohm_-_photo.png",
+        "promo_image2": "/images/projects/ohm/ohm_-_photo.png",
+        "title": "Brand Creation and Launch Material",
+        "layout": "a",
+        "img_dir": "/images/projects/ohm/",
+        "img_main": "ohm_-_intro.png",
+        "slide": {
+            "src": "ohm_-_intro",
+            "extension": "png",
+            "sizes": [480, 960, 1440, 1920],
+            "type": "img"
+        },
+        "media": {
+            "img_half_1": "2-ohm-logo.png",
+            "img_half_2": "3-ohm-lights.png",
+            "img_full_3": "4-ohm-menus-on-table.png",
+            "img_full_4": "5-ohm-collateral.png",
+            "img_half_3": "6-ohm-food-menu.png",
+            "img_half_4": "7-ohm-menu-inside.png",
+            "img_full_7": "8-ohm-cocktail-menu.png",
+            "img_full_8": "9-ohm-business-cards.png"
+        },
+        "brief": [
+            "Create a brand identity for a new bar and kitchen experience in Sheffield. "
+        ],
+        "solution": [
+          "The venue offers post-work cocktails and posh street food for lunch or dinner, delivering an electric vibe in grandiose surroundings. The identity we created followed its interior design lead of 19th Century opulence with a modern twist.",
+          "Quirky, Victorian-era illustrations enhanced the unique, eclectic experience. These were then given an electrifying, contemporary twist with exciting, vibrant colours.",
+          "The end result is an identity that’s unexpected yet relevant, classic yet modern, distinguished yet spirited. "
+        ],
+        "done_better": [
+            "Brand ID",
+            "Print"
+        ],
+        "skillsets": [
+            "Design",
+            "Concepts",
+            "Art direction"
+        ]
+      }
+    ]
+}

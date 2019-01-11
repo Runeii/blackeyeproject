@@ -1,0 +1,8 @@
+@import "scss/setup/setup.scss";
+
+.skills__list + .skills__list {
+  margin-top: -1em;
+  @include breakpoint($md) {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,85 @@
+p {
+    margin-bottom: $vr*4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    margin-bottom: $vr;
+}
+
+.list--style-a {
+    position: relative;
+    margin-bottom: $vr*8;
+
+    li {
+        &:before {
+            content: "\2014";
+            margin-right: 5px;
+        }
+    }
+}
+
+.list--style-c {
+    position: relative;
+
+    li {
+        &:before {
+            content: "\002B";
+            margin-right: 5px;
+        }
+    }
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    display: block;
+    margin-bottom: $vr*3;
+    line-height: 1.27;
+}
+
+.h1,
+h1 {
+    font-size: $vr*21;
+}
+.h2,
+h2 {
+    font-size: $vr*12;
+
+    @include breakpoint($md) {
+        font-size: $vr*21;
+    }
+}
+.h3,
+h3 {
+    font-size: $vr*4;
+
+    @include breakpoint($md) {
+        font-size: 32px;
+    }
+}
+
+.h3 {
+    font-weight: $font-weight-medium;
+}
+
+.h4,
+h4 {
+    font-size: $vr*4;
+}
+
+.h5,
+h5 {
+    font-size: $vr*4;
+}
+
+.font-size--large {
+    font-size: $font-size-large;
+}

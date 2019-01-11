@@ -1,0 +1,21 @@
+@import "scss/setup/setup.scss";
+
+.doBetter {
+  &__title {
+    height: 32px; // Two lines, accounting for text sitting middle of line (2.3x font)
+    margin: $vr*8 0 $vr*4;
+    max-width: 80%;
+    @include breakpoint($sm) {
+      font-size: 60px;
+      max-width: 95%;
+      margin: 0 0 $vr*4;
+    }
+    @include breakpoint($md) {
+      height: 74px;
+      max-width: 90%;
+    }
+    @include breakpoint($lg) {
+      max-width: 95%;
+    }
+  }
+}

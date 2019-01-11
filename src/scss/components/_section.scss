@@ -1,0 +1,181 @@
+.section {
+    position: relative;
+    z-index: $z-mid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section__title {
+    @extend .h3;
+
+    position: relative;
+    margin: 0;
+    padding: 0 0 25px;
+
+    @include breakpoint($md) {
+        margin-bottom: $vr*3;
+    }
+    p {
+        margin-bottom: $vr*2;
+    }
+    .section--style-d & {
+        @include breakpoint($md) {
+            margin-bottom: $vr*7;
+        }
+    }
+
+    .section--style-e & {
+        @include breakpoint($md) {
+            margin-bottom: 0;
+        }
+    }
+    
+    .section--style-d &,
+    .section--style-e & {
+        text-transform: uppercase;
+        font-size: 15px;
+        padding: 15px 0;
+        font-weight: $font-weight-bold;
+
+        &::before {
+            height: 1px;
+            width: 15px;
+        }
+    }
+}
+
+.section__title__sup {
+    position: absolute;
+    top: -10px;
+
+    .section--style-d &,
+    .section--style-e & {
+        left: 20px;
+    }
+}
+
+.section__pretitle {
+    text-transform: uppercase;
+    font-size: $font-size-small;
+    font-weight: $font-weight-bold;
+    margin: 0;
+
+    + .section__title {
+        padding-top: 8px;
+
+        &:before {
+            content: none;
+        }
+    }
+}
+
+.section__body {
+    font-weight: $font-weight-light;
+
+    a {
+        &:hover {
+            color: $brand-color-b;
+        }
+    }
+
+    .icon {
+        &:before {
+            margin-right: gutter(6);
+        }
+    }
+
+    .section--style-a &,
+    .section--style-c &,
+    .section--style-d & {
+        p {
+            margin-bottom: 1em;
+
+            @include breakpoint($md) {
+
+                &:first-child {
+                    text-indent: 0;
+                }
+            }
+        }
+    }
+
+    .section--style-b & {
+        margin-bottom: $vr*6;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.section--style-a,
+.section--style-d,
+.section--style-e {
+    @include breakpoint($md) {
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+}
+
+.section--style-b {
+    @include breakpoint($md) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+.section--style-c {
+    @include breakpoint($md) {
+        padding-top: 100px;
+    }
+}
+
+.section--style-e {
+    h4 {
+        font-size: inherit;
+    }
+}
+
+.section--no-padding {
+    @include breakpoint($md) {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.section--theme-a {
+    .section__body {
+        color: $brand-color-b;
+
+        h4 {
+            color: $brand-white;
+        }
+    }
+}
+
+.section--theme-b {
+    .section__body {
+        color: $brand-color-c;
+
+        h4 {
+            color: $brand-color-b;
+        }
+    }
+}
+
+.section--theme-c {
+    background: $brand-white;
+    color: $brand-black;
+
+    .section__body {
+        color: $brand-color-c;
+
+        h4 {
+            color: $brand-black;
+        }
+    }
+}

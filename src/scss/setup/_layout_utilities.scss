@@ -1,0 +1,36 @@
+@mixin hidden-xs {
+	@include breakpoint(max-width $breakpoint-sm-width) {
+		display: none;
+	}
+}
+
+@mixin hidden-sm {
+	@include breakpoint($breakpoint-sm-width $breakpoint-sm-width-max) {
+		display: none;
+	}
+}
+
+
+@mixin hidden-md {
+	@include breakpoint($breakpoint-md-width $breakpoint-md-width-max) {
+		display: none;
+	}
+}
+
+@mixin hidden-lg {
+	@include breakpoint($breakpoint-lg-width) {
+		display: none;
+	}
+}
+
+
+@mixin visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
